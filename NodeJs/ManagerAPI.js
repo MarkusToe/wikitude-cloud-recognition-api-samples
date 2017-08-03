@@ -50,7 +50,7 @@ var PATH_ADD_TARGET  = "/cloudrecognition/targetCollection/" + PLACEHOLDER_TC_ID
 var PATH_ADD_TARGETS = "/cloudrecognition/targetCollection/" + PLACEHOLDER_TC_ID + "/targets";
 var PATH_GET_TARGET  = "/cloudrecognition/targetCollection/" + PLACEHOLDER_TC_ID + "/target/" + PLACEHOLDER_TARGET_ID;
 
-var PATH_CREATE_OBJECT_TARGETS = "/cloudrecognition/objectTargetCollection/" + PLACEHOLDER_TC_ID + "/target";
+var PATH_CREATE_OBJECT_TARGETS = "/cloudrecognition/objectTargetCollection/" + PLACEHOLDER_TC_ID + "/targets";
 var PATH_GET_OBJECT_TARGET  = "/cloudrecognition/objectTargetCollection/" + PLACEHOLDER_TC_ID + "/target/" + PLACEHOLDER_TARGET_ID;
 var PATH_GET_ALL_OBJECT_TARGETS = "/cloudrecognition/objectTargetCollection/" + PLACEHOLDER_TC_ID + "/target";
 var PATH_GET_OBJECT_TARGET_GENERATION_INFORMATION = "/cloudrecognition/objectTargetCollection/" + PLACEHOLDER_TC_ID + "/generation/target/" + PLACEHOLDER_GENERATION_ID;
