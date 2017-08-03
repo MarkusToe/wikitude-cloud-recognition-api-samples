@@ -38,7 +38,7 @@ class ServiceException extends APIException {
 class ManagerAPI
 {
     // The endpoint where the Wikitude Cloud Targets API resides.
-    private $API_HOST = 'https://api-stage.wikitude.com';
+    private $API_HOST = 'https://api.wikitude.com';
 
     // placeholders used for url-generation
     private $PLACEHOLDER_TC_ID       = '${TC_ID}';
@@ -315,6 +315,8 @@ class ManagerAPI
      *      value is an empty response body
      */
     public function deleteObjectTargetCollection($tcId) {
+        print "\ndeleteObjectTargetCollection\n";
+
         $path = str_replace($this->PLACEHOLDER_TC_ID, $tcId, $this->PATH_GET_OBJECT_TC);
         return $this->sendRequest('DELETE', $path);
     }

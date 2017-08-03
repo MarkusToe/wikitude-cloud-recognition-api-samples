@@ -7,9 +7,9 @@
 include('./ManagerAPI.php');
 
 # The token to use when connecting to the endpoint
-$token = "<enter-your-token-here>";
-$userEmail = "<enter-your-email-here>";
-$EXAMPLE_OBJECT_VIDEO = "<enter-path-to-object-video-here>";
+$token = "managerToken";
+$userEmail = "markus.toeroek@wikitude.com";
+$EXAMPLE_OBJECT_VIDEO = "https://s3-eu-west-1.amazonaws.com/wikitude-webapps/test/ludwig/truck_recording.mp4";
 
 $api = new ManagerAPI($token, "3");
 
@@ -76,7 +76,7 @@ try {
 
     // create a WTO file
     print "\n</br></br>Create WTO for Object Target Collection</br>\n";
-    print json_encode($api->generateWto($tcId));
+    print json_encode($api->generateWto($tcId, "7.0", $userEmail));
 
     // clean up
     print "\n</br></br>Delete Object Target Collection</br>\n";
