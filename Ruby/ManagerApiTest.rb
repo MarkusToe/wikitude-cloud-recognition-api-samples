@@ -7,7 +7,7 @@ require_relative './ManagerAPI'
 # The token to use when connecting to the endpoint
 API_TOKEN = '<enter-your-token-here>'
 USER_EMAIL = '<enter-your-email-here>'
-EXAMPLE_OBJECT_VIDEO = 'https://s3-eu-west-1.amazonaws.com/wikitude-webapps/test/ludwig/truck_recording.mp4'
+EXAMPLE_OBJECT_VIDEO = '<enter-path-to-object-video-here>'
 
 API_VERSION = 3
 

@@ -300,7 +300,7 @@ class ManagerAPI
     path = PATH_GENERATE_WTO.dup
     path[PLACEHOLDER_TC_ID] = tcId
     payload = { :sdkVersion => sdkVersion, :email => email }
-    return sendAsyncRequest('POST', path, payload);
+    return sendAsyncRequest('POST', path, payload)
   end
   
   # Retrieves information about a particular scheduled wto generation.
