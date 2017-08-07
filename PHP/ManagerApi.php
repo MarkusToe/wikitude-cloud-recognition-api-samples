@@ -236,18 +236,7 @@ class ManagerAPI
      *      Note: Depending on the amount of targets this operation may take from seconds to minutes
      */
     public function createObjectTargets($tcId, $targets) {
-        print "createObjectTargets\n";
-        print $tcId;
-
-        print "\noida";
-
-        print $this->PLACEHOLDER_TC_ID;
-        print $this->PATH_CREATE_OBJECT_TARGETS;
-
         $path = str_replace($this->PLACEHOLDER_TC_ID, $tcId, $this->PATH_CREATE_OBJECT_TARGETS);
-
-        print $path;
-
         return $this->sendAsyncRequest('POST', $path, $targets);
     }
 
