@@ -16,7 +16,7 @@ import org.json.JSONObject;
 public class CloudManagerAPITest {
 
     // The token to use when connecting to the endpoint
-    private static final String API_TOKEN = "<enter-your-token-here>";
+    private static final String API_TOKEN = "<enter-your-manager-token-here>";
     private static final String USER_EMAIL = "<enter-your-email-here>";
     private static final String EXAMPLE_OBJECT_VIDEO = "<enter-path-to-object-video-here>";
     

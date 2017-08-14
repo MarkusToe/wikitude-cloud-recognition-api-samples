@@ -5,7 +5,7 @@
 require_relative './ManagerAPI'
 
 # The token to use when connecting to the endpoint
-API_TOKEN = '<enter-your-token-here>'
+API_TOKEN = '<enter-your-manager-token-here>'
 USER_EMAIL = '<enter-your-email-here>'
 EXAMPLE_OBJECT_VIDEO = '<enter-path-to-object-video-here>'
 

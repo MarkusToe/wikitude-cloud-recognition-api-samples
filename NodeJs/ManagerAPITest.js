@@ -8,7 +8,7 @@
 
 const ManagerApi = require('./ManagerAPI.js');
 
-const token = '<enter-your-token-here>';
+const token = '<enter-your-manager-token-here>';
 const userEmail = '<enter-your-email-here>';
 const EXAMPLE_OBJECT_VIDEO = '<enter-path-to-object-video-here>';
 

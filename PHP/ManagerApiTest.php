@@ -7,9 +7,9 @@
 include('./ManagerAPI.php');
 
 # The token to use when connecting to the endpoint
-$token = "managerToken";
-$userEmail = "markus.toeroek@wikitude.com";
-$EXAMPLE_OBJECT_VIDEO = "https://s3-eu-west-1.amazonaws.com/wikitude-webapps/test/ludwig/truck_recording.mp4";
+$token = "<enter-your-manager-token-here>";
+$userEmail = "<enter-your-email-here>";
+$EXAMPLE_OBJECT_VIDEO = "<enter-path-to-object-video-here>";
 
 $api = new ManagerAPI($token, "3");
 
